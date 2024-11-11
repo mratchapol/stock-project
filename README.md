@@ -89,15 +89,19 @@ For example, the `addProduct` method expects a JSON payload containing attribute
     }
 ```
 
-
-<br>
+<br><br>
+As mentioned ealier, I change the data type of image from String to MultiPartFile. Image files are uploaded and a folder named images is created to store the images.
 
 <img src="https://github.com/mratchapol/stock-project/blob/021ed3f868f9da07996d5cc7370b4b33d5c3e733/readme-images/images.png" width="600">
 <img src="https://github.com/mratchapol/stock-project/blob/fab560c162e533ba2c4d5a3bf053b41135bd4f27/readme-images/images-folder.png" width="600">
 
 # 3. Testing
-<img src="https://github.com/mratchapol/stock-project/blob/fab560c162e533ba2c4d5a3bf053b41135bd4f27/readme-images/POST-1.png" width="600">
-<img src="https://github.com/mratchapol/stock-project/blob/fab560c162e533ba2c4d5a3bf053b41135bd4f27/readme-images/GET.png" width="600">
-<img src="https://github.com/mratchapol/stock-project/blob/fab560c162e533ba2c4d5a3bf053b41135bd4f27/readme-images/DELETE.png" width="600">
+In this section, CRUD operations are tested.<br>This is the POST HTTP method, sending data to the server. The requested parameters are sent into the program. You can see that the image parameter accepts a file-type input.<br><br>
+<img src="https://github.com/mratchapol/stock-project/blob/fab560c162e533ba2c4d5a3bf053b41135bd4f27/readme-images/POST-1.png" width="600"><br><br>
+After doing POST, I try doing GET to display the stock.<br><br>
+<img src="https://github.com/mratchapol/stock-project/blob/fab560c162e533ba2c4d5a3bf053b41135bd4f27/readme-images/GET.png" width="600"><br><br>
+Then I try delete one product from the stock.<br><br>
+<img src="https://github.com/mratchapol/stock-project/blob/fab560c162e533ba2c4d5a3bf053b41135bd4f27/readme-images/DELETE.png" width="600"><br><br>
+After deletion, I do GET again to ensure the product is removed.<br><br>
 <img src="https://github.com/mratchapol/stock-project/blob/fab560c162e533ba2c4d5a3bf053b41135bd4f27/readme-images/GET-2.png" width="600">
 
