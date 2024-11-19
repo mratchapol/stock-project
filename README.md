@@ -100,8 +100,8 @@ In this section, CRUD operations are tested.<br>This is the POST HTTP method, se
 <img src="https://github.com/mratchapol/stock-project/blob/fab560c162e533ba2c4d5a3bf053b41135bd4f27/readme-images/POST-1.png" width="600"><br><br>
 After doing POST, I try doing GET to display the stock.<br><br>
 <img src="https://github.com/mratchapol/stock-project/blob/fab560c162e533ba2c4d5a3bf053b41135bd4f27/readme-images/GET.png" width="600"><br><br>
-Then I try delete one product from the stock.<br><br>
+Then I try deleting the product of id 2 from the stock.<br><br>
 <img src="https://github.com/mratchapol/stock-project/blob/fab560c162e533ba2c4d5a3bf053b41135bd4f27/readme-images/DELETE.png" width="600"><br><br>
-After deletion, I do GET again to ensure the product is removed.<br><br>
+After deletion, I do GET again to ensure the product of id 2 is removed.<br><br>
 <img src="https://github.com/mratchapol/stock-project/blob/fab560c162e533ba2c4d5a3bf053b41135bd4f27/readme-images/GET-2.png" width="600">
 
